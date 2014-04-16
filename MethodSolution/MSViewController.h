@@ -10,4 +10,8 @@
 
 @interface MSViewController : UIViewController
 
+- (void) printWholeNumbers: (int) x;
+- (void) printTwoNumbers: (int)x andSecondOne: (int)y;
+
+
 @end
